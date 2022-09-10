@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.google.com/specimen/Outfit" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+        @media only screen and (min-width: 376px) {
+            .attribute-body {
+                padding: 0px;
+                margin: 0px;
+                min-height: 100vh;
+                background-color: hsl(212, 45%, 89%);
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                font-family: "Outfit", "sans-serif";
+            }
+
+            .attribute-box {
+                padding: 15px;
+                background-color: hsl(0, 0%, 100%);
+                box-sizing: border-box;
+                border-radius: 20px;
+                height: 500px;
+            }
+
+            .attribute-qrcode {
+                position: relative;
+            }
+
+            img {
+                border-radius: 12px;
+                width: 286px;
+                height: 286px;
+            }
+
+            .attribute-text {
+                position: absolute;
+                padding: 0px 11px;
+            }
+
+            h2 {
+                font-weight: 700;
+                color: hsl(218, 44%, 22%);
+            }
+
+
+            p {
+                font-size: 15px;
+                color: hsl(220, 15%, 55%);
+                text-align: center;
+            }
+
+        }
+
+        @media only screen and (max-width: 375px) {
+            body {
+                margin: 0px;
+                padding: 0px;
+                min-height: 100vh;
+                background-color: hsl(212, 45%, 89%);
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                font-family: "Outfit", "sans-serif";
+            }
+
+            .attribute-box {
+                box-sizing: border-box;
+                background-color: hsl(0, 0%, 100%);
+                padding: 15px 15px;
+                border-radius: 20px;
+                height: 500px;
+            }
+
+            .attribute-qrcode {
+                position: relative;
+            }
+
+            img {
+                border-radius: 15px;
+                width: 286px;
+                height: 286px;
+            }
+
+            .attribute-text {
+                position: absolute;
+                padding: 0px 11px;
+            }
+
+            h2 {
+                font-weight: 700;
+                color: hsl(218, 44%, 22%);
+            }
+
+            p {
+                font-size: 15px;
+                color: hsl(220, 15%, 55%);
+                text-align: center;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body class="attribute-body">
+    <main class="attribute-box">
+        <div class="attribute-qrcode">
+            <img src="images/image-qr-code.png" alt="QRCODE">
+            <div class="text">
+                <h2>Improve your front-end skills by building projects</h2>
+                <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
